@@ -2,7 +2,6 @@ with open("./Input/Names/invited_names.txt", "r") as invitees:
     invitee_list = invitees.readlines()
 
 with open("./Input/Letters/starting_letter.txt", "r") as starting_letter:
-    #starting_letter.replace("[name]", "Joe")
     template = starting_letter.read()
     print(template)
 
